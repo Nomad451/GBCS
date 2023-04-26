@@ -15,8 +15,8 @@ int num = Convert.ToInt32(Console.ReadLine());
 string result = "";
 
 while (num > 0) {
-    result = num % 2 + result;
-    num = num / 2;
+    result = num % 2 + result;  // находим остаток и записываем в строку
+    num = num / 2;              // делим число на 2
 }
 
 Console.WriteLine("Двоичный вариант: " + result);
